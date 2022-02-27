@@ -35,11 +35,7 @@ const EmployeesListItem = (props) => {
 					<i className="fas fa-cookie"></i>
 				</button>
 
-				<button
-					type="button"
-					className="btn-trash btn-sm "
-					onClick={onDelete}
-				>
+				<button type="button" className="btn-trash btn-sm " onClick={onDelete}>
 					<i className="fas fa-trash"></i>
 				</button>
 				<i className="fas fa-star"></i>
